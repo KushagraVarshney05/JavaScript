@@ -50,3 +50,22 @@
 //  console.log(a===b)
 
 
+
+// WAP to swap two numbers
+// var a=5;
+// var b=10;
+// var c=a;
+// a=b;
+// b=c; 
+
+
+// WAP to swap two numbers without using third variabe
+// var a=5;
+// var b=10;
+// a=a+b;
+// b=b-a;
+// a=a-b;
+
+// ternary operator
+var age=19;
+(age>=18)?console.log("you can vote"):console.log("you can't vote")
