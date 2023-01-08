@@ -103,8 +103,8 @@
 // The initial value of NaN is Not-A-Number 
 
 
-var myPhoneNumber = 9876543210;
-var myName = "thapa technical";
+// var myPhoneNumber = 9876543210;
+// var myName = "thapa technical";
 
 // console.log(isNaN(myPhoneNumber));
 // console.log(isNaN(myName));
@@ -871,7 +871,7 @@ var myName = "thapa technical";
 
 
  
-// 6️⃣ Fat Arror Function 
+// 6️⃣ Fat Arrow Function 
 
 // 👻 Normal Way of writing Function  
 
@@ -1625,7 +1625,9 @@ var myName = "thapa technical";
 // var str = "Apple, Bananaa, Kiwi, mango";
 
 // // let res = str.slice(0,4);
+// let res = str.slice(7,8);
 // let res = str.slice(7);
+
 // console.log(res);
 
 
@@ -1733,9 +1735,10 @@ var myName = "thapa technical";
 // The charAt() method returns the character at a 
 // specified index (position) in a string
 
-// let str = "HELLO WORLD";
+let str = "HELLO WORLD";
 
-// console.log(str.charAt(9));
+console.log(str.charAt(9));
+console.log(str[9]);
 
 
 
