@@ -67,5 +67,27 @@
 // a=a-b;
 
 // ternary operator
-var age=19;
-(age>=18)?console.log("you can vote"):console.log("you can't vote")
+// var age=19;
+// (age>=18)?console.log("you can vote"):console.log("you can't vote");
+
+// debugger
+// for(var i=0;i<10;i++)
+// {
+//     console.log(i);
+// }
+
+// function
+// function sum(a,b)
+// {
+//     var total=a+b;
+//     return total;
+// }
+
+// console.log(sum(10,10));
+// const sum=(a,b)=>`the sum of two no is${a+b}`;
+// console.log(sum(10,5));
+var names=["kushagra","varshney","dev","varshney"];
+names.forEach(function(eleme,ind,arr)
+{
+    console.log(`name: ${eleme}, ind: ${ind}, arr: ${arr}`);
+})
