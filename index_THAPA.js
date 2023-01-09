@@ -2204,7 +2204,7 @@
 
 // alert(location.href); // shows current URL
 // if (confirm("Want to Visit ThapaTechnical?")) {
-//   location.href = "https://www.youtube.com/thapatechnical"; // redirect the browser to another URL
+  // location.href = "https://www.youtube.com/thapatechnical"; // redirect the browser to another URL
 // }
 
 
