@@ -1735,10 +1735,10 @@
 // The charAt() method returns the character at a 
 // specified index (position) in a string
 
-let str = "HELLO WORLD";
+// let str = "HELLO WORLD";
 
-console.log(str.charAt(9));
-console.log(str[9]);
+// console.log(str.charAt(9));
+// console.log(str[9]);
 
 
 
