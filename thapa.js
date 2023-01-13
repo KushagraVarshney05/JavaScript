@@ -1,19 +1,20 @@
-// var myname = "kush";
+var myname = "kush";
 // console.log(myname);
-// var whoiam= true;
+var whoiam= true;
 
 // console.log(typeof (myname));
 // console.log(typeof (whoiam));
-// a=10;
-// b='20';
-// c=a+b+whoiam;
-// console.log(c);
+a=10;
+b='20';
+c=a+b;
+// +whoiam;
+console.log(c);
 // console.log(typeof(c));
-// d=whoiam-a;
-// e=a-b;
-// f=myname-a;
-// console.log(d,e,f);
-// console.log(typeof(f));
+d=whoiam-a;
+e=a-b;
+f=myname-a;
+console.log(d,e,f);
+console.log(typeof(f));
 
 
 
@@ -86,8 +87,8 @@
 // console.log(sum(10,10));
 // const sum=(a,b)=>`the sum of two no is${a+b}`;
 // console.log(sum(10,5));
-var names=["kushagra","varshney","dev","varshney"];
-names.forEach(function(eleme,ind,arr)
-{
-    console.log(`name: ${eleme}, ind: ${ind}, arr: ${arr}`);
-})
+// var names=["kushagra","varshney","dev","varshney"];
+// names.forEach(function(eleme,ind,arr)
+// {
+//     console.log(`name: ${eleme}, ind: ${ind}, arr: ${arr}`);
+// })

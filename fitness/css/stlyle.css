@@ -217,21 +217,24 @@ header .right-side-menu .sub-menu button {
 
   .main-hero-section .hero-right-side {
     width: 50%;
-    height: 100vh;
+    height: 100;
     background: var(--background-color);
-    position: absolute;
-    right: 0;
-    top: 0;
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 0; */
     border-radius: 90px 20px 0px 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* object-fit: contain; */
+
   }
   
   .main-hero-section .hero-right-side img {
-    width: 100rem;
-    height: 90rem;
-    margin-right: 43rem;
+    width: 100vh;
+    height: 100vh;
+    /* margin-right: 43rem; */
+    /* object-fit: contain; */
   }
   /* ------------------- our 2nd section left side css style 
 ------------------------------------ */
