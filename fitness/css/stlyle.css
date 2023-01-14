@@ -76,9 +76,9 @@ button {
 header{
     padding: 0px 20rem;
 }
-.logo{
+/* .logo{
 
-}
+} */
 header nav{
     display: flex;
     justify-content: space-between;
