@@ -85,9 +85,9 @@
 // Difference between null vs undefined? 
 
 
-var iAmUseless = null;
-console.log(iAmUseless);
-console.log(typeof(iAmUseless));
+// var iAmUseless = null;
+// console.log(iAmUseless);
+// console.log(typeof(iAmUseless));
 // //2nd javascript bug
 
 // var iAmStandBy;
