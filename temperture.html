@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperature</title>
+    <script src="https://kit.fontawesome.com/9f86803ccd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <h1 id="main-heading">
+                temperature 
+                <i id="main" class="fa-regular fa-temperature-empty"></i>
+                <img id ="temp" src="" alt="bb">
+            </h1>
+        </div>
+    </div>
+    <script>
+        const temperature=()=>{
+            const temp= document.getElementById('temp');
+            temp.src="20220923_205412.jpg"
+            setTimeout(()=>{
+                temp.src="20220923_205330.jpg";
+            },1000);
+        }
+        temperature()
+        setInterval(() => {
+            temperature();
+        }, 2000);
+    </script>
+</body>
+</html>
