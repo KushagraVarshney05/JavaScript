@@ -549,6 +549,7 @@
 //   debugger;
 //   console.log(num); //infinte loop
 //   num++;
+
 // }while(num <= 10);
 
 // 6️⃣ For Loop 
@@ -1154,7 +1155,7 @@
 
 // // price < 400
 // const newPriceTag = prices.filter((elem, index) => {
-//   return elem > 1400;
+//   return elem > 400;
 // })
 // console.log(newPriceTag);
 
@@ -1326,6 +1327,7 @@
 
 // Array.prototype.splice() 🙋‍♂️
 // Adds and/or removes elements from an array.
+// 
 
 // 1: Add Dec at the end of an array?
 // 2: What is the return value of splice method?
