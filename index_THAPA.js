@@ -26,10 +26,10 @@
 // var _myName = "vinod";
 // var 1myName = "thapa";
 // var _1my__Name = "bahadur";
-// var $myName = "thapa technical";
+// var $myName$ = "thapa technical";
 // var myNaem% = "thapa technical";
 
-// console.log(myNaem%);
+// console.log($myName$);
 
 
 
@@ -62,7 +62,7 @@
 
 // console.log( 10 + "20");
 // 9 - "5"
-// console.log( 9 - "5"); //bug
+// console.log( 9 - "5") //bug
 // "Java" + "Script"
 // console.log( "Java "+ "Script");
 // " " + " "
@@ -424,20 +424,19 @@
 // A normal year has 365 days, leap years have 366, with an extra day in February.
 
 
-// var year = 2020;
-// debugger;
+// var year = 2100;
+// // debugger;
 // if(year % 4 === 0){
-//   if(year % 100 === 0){
-//     if(year % 400 === 0){
-//       console.log("The year " + year + " is a leap year");
-//     }else{
-//       console.log("The year " + year + " is not a leap year");
-//     }
-//   }else{
-//     console.log("The year " + year + " is a leap year");
+//   if(year%100==0&&year%400 !=0)
+//   {
+//     console.log("not a leap year");
 //   }
-// }else{
-//   console.log("The year " + year + " is not a leap year");
+//   else{
+//     console.log("its a leap year");
+//   }
+// }
+// else{
+//   console.log("not a leap year");
 // }
 
 
@@ -778,7 +777,7 @@
 
 // output :  8 * 1 = 8 
         //   8 * 2 = 16(8*2)
-        //  => 8 * 10 = 80
+         => 8 * 10 = 80
 
 // for(let num = 1; num<= 10; num++){
 //     let tableOf = 12;  
