@@ -777,7 +777,7 @@
 
 // output :  8 * 1 = 8 
         //   8 * 2 = 16(8*2)
-         => 8 * 10 = 80
+        //  => 8 * 10 = 80
 
 // for(let num = 1; num<= 10; num++){
 //     let tableOf = 12;  
@@ -1174,8 +1174,8 @@
 
 // console.log(months.sort());
 
-// const array1 = [1, 30, 4, 21, 100000, 99];
-// console.log(array1.sort());
+const array1 = [1, 30, 4, 21, 100000, 99];
+console.log(array1.sort());
 
 
 
